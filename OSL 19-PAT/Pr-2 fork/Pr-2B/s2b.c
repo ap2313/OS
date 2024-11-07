@@ -29,27 +29,3 @@ int main(int argc,char *argv[],char *en[])
 	return 0;
 }
 
-/*
-[kiosk@foundation5 ~]$ gcc s2a.c -o first
-[kiosk@foundation5 ~]$ gcc s2b.c -o second
-[kiosk@foundation5 ~]$ ./first ./second
-
- Enter the size of array
-6
-
- Enter the numbers
-6
-8
-4
-9
-6
-0
-
- Elements entered are
-684960
- Sorted elements are
-:046689
- Enter element to search:6
-
- Element found in given array[kiosk@foundation5 ~]$ 
-*/
